@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Informal Roman Regular';
+  src: url('Informal Roman Regular.eot');
+  src: url('Informal Roman Regular.woff2') format('woff2'),
+       url('Informal Roman Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InformalRoman-Regular';
+  src: url('InformalRoman-Regular.woff') format('woff'),
+       url('InformalRoman-Regular.ttf') format('truetype'),
+       url('InformalRoman-Regular.svg#InformalRoman-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
