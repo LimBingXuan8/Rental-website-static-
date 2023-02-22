@@ -1,0 +1,645 @@
+@charset "utf-8";
+/* CSS Document */
+body 
+{
+	margin: 0px;
+	padding: 0px;
+	min-width: 1280px;
+	overflow-x: hidden;
+}
+
+.main-container
+{
+	width: 100%;
+	height: 100%;
+	display: block;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+/*Header Css*/
+.header-container
+{
+	width: 100%;
+	height: 150px;
+	display: block;
+	position: relative;
+	
+}
+
+.header
+{
+	width: 85%;/* 1632px actual size(according 1920px design) */
+	min-width: 1280px;
+	max-width: 2125px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.header-border
+{
+	width: 100%;
+	height: auto;
+	min-width: 1100px;
+	max-width: 1920px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: -15px;
+}
+
+.logo-holder
+{
+	/*size belong to header*/
+	
+	width: 27%;/* 440px actual size */
+	min-width: 300px;
+	height: 100%;
+	float: left;
+	
+}
+
+.logo-holder a img
+{
+	float: left;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.navigation-holder
+{
+	/*size belong to header*/
+	
+	width: 68%;/* 1100px actual size */
+	min-width: 880px;
+	height: 100%;
+	display: inline-block;
+
+}
+
+.navigation
+{
+	/*size belong to navigation-holder*/
+	
+	width: 85%;/* 905px actual size */
+	min-width: 745px;
+	height: 100%;
+	margin-top: 0px;
+	float: left;
+	margin-left: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.navigation li
+{
+	width: 150px;
+	height: 50px;
+	float: left;
+	margin-top: 40px;
+	padding-top: 15px;
+	margin-left: 5%;
+	list-style: none;
+}
+.navigation li a
+{
+	font-family: 'Arial';
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+}
+
+.navigation li a:hover
+{
+ 	border-bottom: solid 2px grey;
+}
+
+#services-border
+{
+	width: 170px;
+	border-radius: 32px;
+	border: solid 2px #2b2b2b;
+}
+
+#services-border:hover
+{
+	background: lightgrey;
+}
+
+.header-profile-holder
+{
+	/*size belong to navigation-holder*/
+	
+	width: 15%;
+	min-width: 125px;
+	height: 100%;
+	float: right;
+}
+
+.header-profile-holder img
+{
+	float: right;
+	margin-top: 30px;	
+}
+/*End Header css*/
+.propertysearchcontainer{
+	width:100%;
+	height: 1380px;
+	background-image: url(../images/propertysearch/propertysearchbackground.png);
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	margin: 0 auto;
+}
+
+.searchcontainer{
+	width:100%;
+	height:422px;
+	background-image: url(../images/propertysearch/searchbackground.png);
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+}
+
+.searchtitle{
+	width: 522px;
+	height: 41px;
+	display: inline-block;
+	margin-top: 112px;
+	color: #7E7E7F;
+	font-family: 'Informal Roman Regular';
+	font-size: 45px;
+}
+
+.searchbar{
+	height: 61px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 33px;
+	display: inline-block;
+}
+
+.searchbar input{
+	background: url(../images/propertysearch/searchbarbackground.png);
+	background-size: cover;
+	border: none;
+	width:875px;
+	height:71px;
+	font-family: 'Quicksand-Light';
+	font-size: 25px;
+	padding-right: 80px;
+}
+
+.searchbar input::placeholder{
+	font-family: 'Quicksand-Light';
+	font-size: 25px;
+}
+
+
+.pricerange{
+	width: 878px;
+	height: 73px;
+	margin-top: 42px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	font-family: 'Quicksand-Light';
+	font-size: 25px;
+	color: white;
+}
+
+.pricerange input{
+	width: 400px;
+	cursor: pointer;
+}
+
+.slider{
+	-webkit-appearance: none;
+}
+
+/*For styling range slider*/
+/* style thumb  */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: #C3EDFF;
+  cursor: pointer;
+  margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+}
+
+
+/*End style thumb*/
+
+/*Style the range track*/
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: #81DAFF;
+  border-radius: 2px;
+  border: 0.2px solid #010101;
+	
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+	background: #81DAFF;
+}
+
+#price
+{
+	margin-left: 120px;
+}
+
+
+/*End styling the slider*/
+
+.imageline{
+	width: 80%;
+	margin-top: 31px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.houseresultcontainer{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+	display: block;
+}
+
+.houseresultrow{
+	display: inline-block;
+	margin-top: 12px;
+}
+
+.houseresultrow a:hover .hovertext{
+	opacity: 1;
+	transition-delay: 300ms;
+}
+
+.houseresultrow a:hover .houseresultborderbox{
+	opacity: 0;
+}
+
+.houseresultholder{
+	width:288px;
+	height: 235px;
+	position: relative;
+	float: left;
+	margin-left: 18px;
+	background-image: url(../images/propertysearch/house/houseimage.png);
+}
+
+.imagefilter{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(161,161,161,0.7);
+}
+
+.hovertext{
+	width: 100%;
+	position: absolute;
+	font-family: 'Quicksand-Bold';
+	font-size: 25px;
+	margin-top: 100px;
+	color: white;
+	text-align: center;
+	transition: opacity 800ms;
+	-webkit-transition: opacity 800ms;
+	opacity: 0;
+}
+
+.houseresultborderbox{
+	width: 244px;
+	height: 199px;
+	position: absolute;
+	margin-top: 19px;
+	margin-left: 20px;
+	display: block;
+	border: 1px solid white;
+	transition: opacity 300ms;
+	-webkit-transition: opacity 300ms;
+	opacity: 1;
+}
+
+.houseresultdetail{
+	width:244px;
+	height: 74px;
+	margin-top: 125px;
+	position: relative;
+	background-color: rgba(255,255,255,0.5);
+
+}
+
+.housedetailtitle{
+	height: 12px;
+	display: block;
+	margin-top: 2px;
+	margin-left: 6px;
+	position: absolute;
+	font-family: 'Quicksand-Bold';
+	font-size: 13px;
+	color: #4f4f4f;
+}
+
+.houseresultprice{
+	width: 100px;
+	height: 14px;
+	float: left;
+	margin-top: 19px;
+	margin-left: 6px;
+	background-color: #6d6d6d;
+	border-radius: 5px;
+	clear: both;
+	font-family: 'Quicksand-Book';
+	font-size: 9px;
+	color: white;
+	padding-left: 10px;
+	padding-top: 3px;
+}
+
+.houseresultlocation{
+	height: 30px;
+	float: left;
+	margin-left: 6px;
+	margin-top: 5px;
+	clear: left;
+	font-family: 'Quicksand-bold';
+	font-size: 8px;
+	color: #515151;
+}
+
+.houseresultavailable{
+	width: 50px;
+	height: 20px;
+	margin-right: 36px;
+	float: right;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 7px;
+	font-family: 'Quicksand-Bold';
+	color: #515151;
+	font-size: 7px;
+	padding-left: 12px;
+	padding-bottom: 10px;
+	line-height: 15px;
+	
+}
+
+.pagenumber{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 15px;
+	display: block;
+	font-family: 'Quicksand-Book';
+	font-size: 15px;
+	text-align: center;
+	
+}
+
+.pagenumber ul{
+	display: inline-block;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+.pagenumber ul img{
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.pagenumber ul li{
+	width: 20px;
+	height: 20px;
+	list-style: none;
+	float: left;
+	border-radius: 5px;
+	margin-left: 8px;
+	color: black;
+	cursor: pointer;
+}
+
+#selected{
+	background-color: #B8DFF2;
+}
+
+
+
+/*Footer css*/
+.footer-container
+{
+	width: 100%;
+	height: 365px;
+	display: block;
+	position: relative;
+	background: linear-gradient(180deg, #ffffff 82%, #727272 18%)
+}
+
+.footer
+{
+ 	/* size belong to footer-container */
+	
+	width: 85%;/* 1632px actual size(according 1920px design) */
+	height: 100%;
+	min-width: 1280px;
+	max-width: 2125px;
+	display: block;
+	margin: 0 auto;
+}
+
+.footer-border
+{
+	width: 100%;
+	height: auto;
+	min-width: 1100px;
+	max-width: 1920px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top:-15px;
+}
+
+.foot-nav-holder
+{
+	/* size belong to footer */
+	
+	width: 100%;
+	height: 300px;
+	display: block;
+}
+
+.foot-nav-left
+{
+	/* size belong to footer-nav-holder */
+	
+	width: 65%;/* actual size 1060px */
+	height: 100%;
+	float: left;
+}
+
+.foot-nav-box
+{
+	/* size belong to foot-nav-left */
+	
+	width: 17%; /*actual size 183px */
+	height: 220px;
+	float: right;	
+	margin-top: 30px;
+	margin-right: 7%;
+}
+
+.foot-nav-box ul
+{
+	padding-left: 7%;
+}
+
+.foot-nav-box ul li
+{
+	list-style: none;
+	margin-top: 8px;
+}
+
+.foot-nav-box ul li a
+{
+
+	text-decoration: none;
+	font-family: 'Quicksand-Book';
+	font-size: 16px;
+	color: #474747;
+}
+
+.foot-nav-box ul li a:hover
+{
+
+	border-bottom: solid 1px grey;
+}
+
+.foot-nav-title
+{
+	font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 20px;
+	color: #383838;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 8%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: solid 1.4px black;
+}
+
+.foot-nav-right
+{
+	/* size belong to footer-nav-holder */
+	
+	width: 35%;/* actual size 571px */
+	height: 100%;
+	float: right;
+}
+
+.foot-notify-box
+{
+	/* size belong to footer-nav-right */
+	
+	width: 83%;/*actual size 475px */
+	height: 180px;
+	float: right;
+	margin-top: 55px;
+}
+
+.foot-notify-title1
+{
+	font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 25px;
+	color: #383838;
+	padding:0px;
+	margin: 0px;
+}
+
+.foot-notify-title2
+{
+	font-family: 'Quicksand-Light';
+	font-size: 25px;
+	color: #383838;
+	padding:0px;
+	margin: 0px;
+}
+
+.notify-input
+{
+	/* size belong to footer-notify-box*/
+	
+	width: 90%;
+	height: 42px;
+	background: #cecece;
+	margin-top: 20px;
+	border-radius: 23px;
+	border-width: 0px;
+	box-sizing: border-box;
+}
+
+input[type="text"]
+{
+	padding-left: 5%;
+}
+input
+{
+	-webkit-appearance: textfield;
+	cursor: text;
+}
+
+.foot-logo-holder
+{
+	/* size belong to foot-logo-holder*/
+	width: 100%;
+	height: 65px;
+	display: block;
+		
+}
+
+.partner-logo-holder
+{
+	/* size belong to footer*/
+	
+	width: 70%;/* actual size 731px */
+	height: 100%;
+	float: left;
+	
+}
+
+.partner-logo-holder img
+{
+	float: left;
+	margin-left: 10%;
+	
+}
+
+.social-logo-holder
+{
+	/* size belong to footer*/
+	
+	width: 30%; /* actual size 251px */
+	height: 100%;
+	float: right;
+}
+
+.social-logo-holder a img
+{
+	
+	margin-top: 15px;
+	margin-right: 7%;
+	float: right;
+}
+/*End Footer css*/
+

@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'Quicksand-Light';
+  src: url('../font/QuickSand/QuickSand-Light/QuicksandLight-Regular.eot');
+  src: url('../font/QuickSand/QuickSand-Light/QuicksandLight-Regular.woff2') format('woff2'),
+       url('../font/QuickSand/QuickSand-Light/QuicksandLight-Regular.woff') format('woff'),
+       url('../font/QuickSand/QuickSand-Light/QuicksandLight-Regular.ttf') format('truetype'),
+       url('../font/QuickSand/QuickSand-Light/QuicksandLight-Regular.svg#QuicksandLight-Regular') format('svg'),
+       url('../font/QuickSand/QuickSand-Light/QuicksandLight-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quicksand-Book';
+  src: url('../font/QuickSand/QuickSand-Book/QuicksandBook-Regular.eot');
+  src: url('../font/QuickSand/QuickSand-Book/QuicksandBook-Regular.woff2') format('woff2'),
+       url('../font/QuickSand/QuickSand-Book/QuicksandBook-Regular.woff') format('woff'),
+       url('../font/QuickSand/QuickSand-Book/QuicksandBook-Regular.ttf') format('truetype'),
+       url('../font/QuickSand/QuickSand-Book/QuicksandBook-Regular.svg#QuicksandBook-Regular') format('svg'),
+       url('../font/QuickSand/QuickSand-Book/QuicksandBook-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quicksand-Bold';
+  src: url('../font/QuickSand/QuickSand-Regular/QuicksandBold-Regular.eot');
+  src: url('../font/QuickSand/QuickSand-Regular/QuicksandBold-Regular.woff2') format('woff2'),
+       url('../font/QuickSand/QuickSand-Regular/QuicksandBold-Regular.woff') format('woff'),
+       url('../font/QuickSand/QuickSand-Regular/QuicksandBold-Regular.ttf') format('truetype'),
+       url('../font/QuickSand/QuickSand-Regular/QuicksandBold-Regular.svg#QuicksandBold-Regular') format('svg'),
+       url('../font/QuickSand/QuickSand-Regular/QuicksandBold-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Informal Roman Regular';
+  src: url('../font/informal-roman/Informal Roman Regular.eot');
+  src: url('../font/informal-roman/Informal Roman Regular.woff2') format('woff2'),
+       url('../font/informal-roman/Informal Roman Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InformalRoman-Regular';
+  src: url('../font/informal-roman/InformalRoman-Regular.woff') format('woff'),
+       url('../font/informal-roman/InformalRoman-Regular.ttf') format('truetype'),
+       url('../font/informal-roman/InformalRoman-Regular.svg#InformalRoman-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
